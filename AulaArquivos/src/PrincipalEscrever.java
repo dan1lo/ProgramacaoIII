@@ -9,9 +9,7 @@ public class PrincipalEscrever {
 		        BufferedWriter arquivo = new BufferedWriter(new FileWriter("p3.txt")); 
 		        // assim apaga tudo no arquivo e escreve novamente
 		        // caso vc queira adicionar na ultima linha usar:
-		        //BufferedWriter arquivo = new BufferedWriter(new FileWriter("p3.txt", true)); 
-		        
-		        
+		        //BufferedWriter arquivo = new BufferedWriter(new FileWriter("p3.txt", true)); 	        
 		        String linha = "";
 		        Scanner in = new Scanner(System.in);
 		        System.out.println("Escreva algo para colocar no arquivo p3.txt: ");
